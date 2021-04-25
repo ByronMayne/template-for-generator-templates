@@ -147,7 +147,7 @@ The Generator depends on either the [React](https://github.com/asyncapi/generato
 
 The list of resources that are relevant for this template:
 
-- `template` is a directory where you keep all the files that will be processed by the Generator using React. Only files with the `.js`, `.jsx` and `.cjs` extensions are taken and processed by the Generator. The rest are skipped.
+- `template` is a directory where you keep all the files that will be processed by the Generator using React. Only files with the `.js`, `.jsx`, `.cjs`, `.ts`, and `.tsx` extensions are taken and processed by the Generator. The rest are skipped.
 - `hooks` is a directory containing [**hooks**](#hooks), which are special JavaScript functions. Hooks are a native generator feature, and not related to the render engine. It allows you to plug into different stages of the generation process with some custom logic.
 
 > **NOTE**: The reusable parts (components/helpers) can be located both in the `template` folder or in another named folder. The only exception is the `hooks` folder, it is reserved solely for the Generator.
